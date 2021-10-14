@@ -1,0 +1,85 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: arial;
+}
+header {
+
+}
+.h_wrapper {
+    height: 65px;
+    width: 80%;
+    margin: 0px auto;
+}
+.logo_part {
+    width: 20%;
+    float: left;
+    height: 46px;
+    padding: 9px;
+}
+.logo_part img {
+    height: 50px;
+}
+.menu {
+    width: 75%;
+    float: right;
+    height: 65px;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    margin-left: 25px;
+    padding-top: 8px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#banner_side {}
+.banner_wrapper {
+    height: 500px;
+    background-color: yellow;
+    background: url("../image/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-size: cover;
+}
+.banner_content {
+    width: 70%;
+    margin: 0px auto;
+    font-size: 25px;
+    overflow: hidden;
+}
+.banner_content h1 {
+    width: 39%;
+    color: white;
+}
+.bannerp1 .bannerp2 {
+
+}
+p.bannerp1 {
+    font-size: 16px;
+    color: white;
+    width: 35%;
+}
+p.bannerp2 {
+    font-size: 16px;
+    color: white;
+    width: 35%;
+}
+.banpbuttn {
+    font-size: 15px;
+    padding: 15px;
+    background-color: #eee251;
+    width: 26%;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    border-radius: 13px;
+}
